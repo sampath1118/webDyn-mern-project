@@ -27,5 +27,5 @@ hbs.registerPartials(partialspath);
 app.use(router);
 
 app.listen(port, () => {
-    console.log(`server is running at port ${port} just checking once more the committing`);
+    console.log(`server is running at port ${port}`);
 });
